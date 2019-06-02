@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('./assets/fonts/DroidSerif.ttf') format('truetype');
+}
+
+html {
+    font-size: 10px;
+    background: #141617;
+}
+
+main {
+    background: #141617;
+    margin: 0 30px 0 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#main {
+    color: #AEAEAE;
+    font-family: 'DroidSerif', sans-serif;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #FEFEFE;
+    font-family: 'Roboto', sans-serif; 
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+#quote {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+cite {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #44505A;
+}
+
+#img-div {
+    padding: 10px;
+    margin: 0;
+    background: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+#img-caption {
+    margin: 10px 0 5px 0;  
+    font-size: 1.5rem;
+}
+
+strong {
+    color: #FEFEFE;
+}
+
+@media (max-width: 460px) {
+    main {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    #img-caption {
+        font-size: 1.5rem;
+    }
+}
+
+
